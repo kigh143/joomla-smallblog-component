@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<extension type="component" version="3.4.8" method="upgrade">
+	<name>COM_BLOGER</name>
+	<author>Katende Ivan kigh143</author>
+	<version>1.0.0</version>
+	<description>COM_BLOGER_DESC</description>
+	<files folder="components/com_bloger">
+		<filename>bloger.php</filename>
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+	</files>
+	<languages folder="language/en-GB">
+		<language tag="en-GB">en-GB.com_bloger.ini</language>
+	</languages>
+	<administration>
+		<menu link="option=com_bloger">COM_BLOGER_MENU_ITEM</menu>
+		<files folder="administrator/components/com_bloger">
+			<filename>bloger.php</filename>
+			<filename>index.html</filename>
+			<filename>controller.php</filename>
+		</files>
+		<languages folder="administrator/language/en-GB">
+			<language tag="en-GB">en-GB.com_bloger.sys.ini</language>
+			<language tag="en-GB">en-GB.com_bloger.ini</language>
+		</languages>
+	</administration>
+	
+</extension>
